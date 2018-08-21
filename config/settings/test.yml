@@ -1,0 +1,7 @@
+mailers:
+  default_to: "default@to.com"
+  default_from: "default@from.com"
+
+google:
+  user_name: some_username
+  password: some_password

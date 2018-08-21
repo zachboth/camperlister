@@ -1,0 +1,4 @@
+%h1 Photos
+- @photos.each do |photo|
+  - if photo.image_data?
+    = image_tag photo.image_url
